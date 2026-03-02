@@ -10,15 +10,15 @@
 - Explorer: https://explorer.republicai.io
 
 ## Setup
-- Ubuntu 22.04
+- Ubuntu 24
 - Go 1.22.3
 - patchelf (GLIBC 2.39 compatibility)
 
 ## Compute Setup
-- GPU: NVIDIA RTX 3090 (24GB VRAM)
+- GPU: NVIDIA RTX 6000 (60GB VRAM)
 - Docker with CUDA 11.8
-- First compute job on testnet (Job ID: 10)
+- First compute job on testnet (Job ID: 42)
 
 ## GPU vs CPU Performance
 - CPU inference: ~77 seconds
-- GPU inference: ~8 seconds (10x faster)
+- GPU inference: ~4 seconds (12x faster)
